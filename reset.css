@@ -1,0 +1,23 @@
+/* GLOBAL RESET */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}

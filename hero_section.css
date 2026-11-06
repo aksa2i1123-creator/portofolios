@@ -1,0 +1,47 @@
+/* ROOT VARIABLES */
+
+:root {
+  --coral: #F54D42;
+  --orange: #FF8356;
+  --yellow: #FFCD00;
+
+  --ink: #171717;
+  --paper: #F5F5F1;
+  --white: #FFFEFA;
+
+  --line: rgba(23, 23, 23, 0.14);
+}
+
+.hero-section{
+  margin: 0;
+  padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--coral);
+
+}
+h1.hero-title{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: var(--ink);
+    /* text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000; */
+    font-size: 100px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+p.hero-describe{
+  margin-left: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+button.hero-button{
+  margin-left: 130px;
+  margin-top: 50px;
+  width: 120px;
+  height: 30px;
+  background-color: var(--coral);
+  border: 1px solid black;
+  color: var(--paper);
+}
