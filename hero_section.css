@@ -102,5 +102,14 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
   }
-  
+  .animated-hero-square {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 500px;
+    height: 500px;
+    background-color: var(--ink);
+    animation: hero-animation 3s infinite ease-in-out;
+    z-index: -1;
+  }
 }
