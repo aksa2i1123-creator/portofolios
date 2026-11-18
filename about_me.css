@@ -1,0 +1,43 @@
+:root {
+  --coral: #F54D42;
+  --orange: #FF8356;
+  --yellow: #FFCD00;
+
+  --ink: #171717;
+  --paper: #F5F5F1;
+  --white: #FFFEFA;
+
+  --line: rgba(23, 23, 23, 0.14);
+}
+.about-me-section {
+  width: 100%;
+  height: 100vh;
+  /* background-color: var(--coral); */
+  background-color: var(--paper);
+}
+.about-title{font-size: 100px;}
+.about-title>span{
+    font-size: 130px;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+.about-title>span:hover{
+    font-size: 130px;
+    /* font-family: "Imperial Script", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    color: var(--coral);
+}
+.about-box{
+    width: 90%;
+    height: 90vh;
+    border: var(--ink) 3px solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.about-box>p{
+    margin: 10px;
+}
