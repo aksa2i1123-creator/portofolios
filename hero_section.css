@@ -110,6 +110,5 @@
     height: 500px;
     background-color: var(--ink);
     animation: hero-animation 3s infinite ease-in-out;
-    z-index: -1;
   }
 }
